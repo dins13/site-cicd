@@ -18,7 +18,7 @@ jobs:
       name: github-pages
       # ссылка на опубликованный сайт появится в сводке запуска
       url: ${{ steps.deployment.outputs.page_url }}
-      steps:
+    steps:
 # Шаг 1. Скопировать файлы репозитория на виртуальную машину
       - name: Checkout repository
         uses: actions/checkout@v4
